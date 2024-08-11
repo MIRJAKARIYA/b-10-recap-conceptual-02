@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            height: 100vh;
+  
+  
+            border: 2px solid red;
+            display: grid;
+            grid-template-areas:
+            "a a b b b"
+            "c c b b b"
+            "d d e f f"
+            "g g g g g"
+            
+            ;
+            gap: 10px;
+           
+
+        }
+        .child img{
+            width: 100%;
+            height: 300px;
+        }
+        .child-1{
+            background-color: red;
+            grid-area: a;
+        }
+        .child-2{
+            background-color: violet;
+            grid-area: b;
+
+        }
+        .child-3{
+            background-color: green;
+            grid-area: c;
+        }
+        .child-4{
+            background-color: rgb(90, 214, 90);
+            grid-area: d;
+        }
+        .child-5{
+            background-color: blue;
+            grid-area: e;
+        }
+        .child-6{
+            background-color: cyan;
+            grid-area: f;
+        }
+        .child-7{
+            background-color: rgb(32, 4, 58);
+            grid-area: g;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child child-1">
+            asdfasdfasdfasdfasdfadfasdfasdfasdfsadfs
+        </div>
+        <div class="child child-2" style="background-image: url('./resources/Group\ 18.png');background-repeat: no-repeat;">
+           
+        </div>
+        <div class="child child-3">
+           
+        </div>
+        <div class="child child-4"></div>
+        <div class="child child-5">
+          
+        </div>
+        <div class="child child-6">
+           
+        </div>
+        <div class="child child-7">
+           
+        </div>
+    </div>
+</body>
+</html>
